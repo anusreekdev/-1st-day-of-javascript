@@ -308,3 +308,225 @@
 //     console.log("bad");
     
 // }
+
+// 1
+// let age=24
+// if(age>=18){
+//     console.log("vote success");
+    
+// }
+// else{
+//     console.log("vote fail");
+    
+// }
+
+// 2
+
+// let mark=89
+// if(mark>=80 && mark<=92){
+//     console.log("sem passed");
+    
+// }
+// else{
+//     console.log("sem failed");
+    
+// }
+
+// 3
+// let num=-3
+// if(num>=0){
+//     console.log("positive");
+    
+// }
+// else{
+//     console.log("negative");
+    
+// }
+
+// 4
+
+// let num=451
+// if(num%2==0){
+//     console.log("even num");
+    
+// }
+// else{
+//     console.log("odd num");
+    
+// }
+
+// 5
+
+// let num1=30
+// let num2=50
+
+// if(num1<num2){
+//     console.log("greaterthan");
+    
+// }
+// else{
+//     console.log("lessthan");
+    
+// }
+
+// 3 numbers greater
+
+// let num1=30
+// let num2=107
+// let num3=20
+// if(num1>num2 && num1>num3){
+//     console.log("num1 is greater");
+    
+// }
+
+// else if(num2>num1 && num2>num3){
+//     console.log(" num2 is greater");
+    
+// }
+// else{
+//     console.log("num3 is greater");
+    
+// }
+
+// 6
+
+// let mark=20
+// if(mark>=90 && mark<=100){
+//     console.log("Grade A");
+    
+// }
+// else if(mark>=80 && mark<=89){
+//     console.log("Grade B");
+    
+// }
+// else if(mark>=70 && mark<=79){
+//     console.log("Grade C");
+    
+// }
+// else{
+//     console.log("fail");
+    
+// }
+
+// 7
+
+// let day=8
+// switch (day) {
+//     case 1:
+//         console.log("monday");
+        
+//         break;
+//      case 2:
+//         console.log("Tuesday");
+//         break;
+//      case 3:
+//         console.log("Wednesday");
+//           break;
+//           case 4:
+//             console.log("Thursday");
+//             break;
+//          case 5:
+//             console.log("Friday");
+//             break;
+//          case 6:
+//             console.log("Saturday");
+//             break;
+//          case 7:
+//             console.log("Sunday");
+            
+//     default:
+//         console.log("invalid");
+        
+//         break;
+// }
+
+// 8
+
+// let month=8
+// switch (month){
+//     case 1:
+//         console.log("January");
+//      break;
+//      case 2:
+//         console.log("February");
+//      break; 
+//      case 3:
+//         console.log("March");
+//      break; 
+//      case 4:
+//         console.log("April");
+//      break; 
+//      case 5:
+//         console.log("May");
+//      break; 
+//      case 6:
+//         console.log("June");
+//      break; 
+//      case 7:
+//         console.log("July");
+//      break; 
+//      case 8:
+//         console.log("August");
+//      break; 
+//      case 9:
+//         console.log("September");
+//      break; 
+//      case 10:
+//         console.log("October");
+//      break; 
+//      case 11:
+//         console.log("November");
+//      break; 
+//      case 12:
+//         console.log("december");
+//      break; 
+//      default:
+//         console.log("invalid");
+//       break;  
+     
+
+// }
+
+
+// 9
+
+// let num1=300
+// let num2=50
+// let operator="sub"
+// switch (operator) {
+//     case "add":
+//         console.log(num1+num2);
+//         break;
+//         case "sub":
+//         console.log(num1-num2);
+//         break;
+//         case "mul":
+//         console.log(num1*num2);
+//         break;
+
+//         case "div":
+//         console.log(num1/num2);
+//         break;
+//     default:
+//         console.log("invalid operator");
+//         break;
+// }
+
+// 10
+
+let traffic="Green"
+switch (traffic) {
+    case "Red":
+        console.log("stop");
+        break;
+    case "Yellow":
+        console.log("Get ready");
+        break;
+    case "Green":
+        console.log("Go");
+        break;
+    default:
+        console.log("invalid traffic");
+        
+        break;
+}
