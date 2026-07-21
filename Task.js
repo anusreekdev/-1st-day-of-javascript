@@ -514,19 +514,19 @@
 
 // 10
 
-let traffic="Green"
-switch (traffic) {
-    case "Red":
-        console.log("stop");
-        break;
-    case "Yellow":
-        console.log("Get ready");
-        break;
-    case "Green":
-        console.log("Go");
-        break;
-    default:
-        console.log("invalid traffic");
+// let traffic="Green"
+// switch (traffic) {
+//     case "Red":
+//         console.log("stop");
+//         break;
+//     case "Yellow":
+//         console.log("Get ready");
+//         break;
+//     case "Green":
+//         console.log("Go");
+//         break;
+//     default:
+//         console.log("invalid traffic");
         
-        break;
-}
+//         break;
+// }
