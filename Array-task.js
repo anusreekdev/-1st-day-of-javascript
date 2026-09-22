@@ -45,5 +45,50 @@
 
 
 
+//  
+// splice
+// let flowers=["rose","jasmine","sunflower"]
+// flowers.splice(1,1)
+// // console.log(flowers);
+// [ 'rose', 'sunflower' ]
+// flowers.push("lotus")
+// // console.log(flowers);
+// [ 'rose', 'sunflower', 'lotus' ]
+// flowers.splice(0,2)
+// // console.log(flowers);
+// [ 'lotus' ]
+
+// // flowers.splice(0,0,"kiwi")
+// // console.log(flowers);
+// [ 'kiwi', 'lotus' ]
+
+// let fruits=['apple',"orange","grapes","mango","kiwi"]
+// console.log(fruits);
+
+// fruits.splice(4,1,"jackfruit")
+// // console.log(fruits);
+// [ 'apple', 'orange', 'grapes', 'mango', 'jackfruit' ] 
+// fruits.splice(0,1)
+// // console.log(fruits);
+// [ 'orange', 'grapes', 'mango', 'jackfruit' ]
+// fruits.splice(0,0,"apple")
+// // console.log(fruits);
+// [ 'apple', 'orange', 'grapes', 'mango', 'jackfruit' ]
+// // console.log(fruits);
 
 
+// slice
+// let fruits=['apple',"orange","grapes","mango","kiwi"]
+// console.log(fruits);
+//  let object=fruits.slice(2,5)
+//  console.log(object);
+//  [ 'grapes', 'mango', 'kiwi' ]
+//  console.log(fruits);
+//  [ 'apple', 'orange', 'grapes', 'mango', 'kiwi' ]
+ 
+// console.log(fruits.indexOf("mango"));
+// 3
+// console.log(fruits.includes("orange"));
+// true
+// console.log(fruits.includes("pineapple"));
+// false
