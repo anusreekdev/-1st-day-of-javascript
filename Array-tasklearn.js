@@ -291,17 +291,17 @@
 // 67
 
 // 12
-let products = ['Laptop', 'Mouse', 'Keyboard', 'Monitor'];
- let prices = [50000, 800, 2500, 12000]
- products.forEach((val,ind)=>{
-    console.log(ind+1,val,prices[ind]);
-     if(prices[ind]>=10000){
-        console.log(val+ " Expensive ");
-     }else{
-        console.log(val+ " Affordable");
+// let products = ['Laptop', 'Mouse', 'Keyboard', 'Monitor'];
+//  let prices = [50000, 800, 2500, 12000]
+//  products.forEach((val,ind)=>{
+//     console.log(ind+1,val,prices[ind]);
+//      if(prices[ind]>=10000){
+//         console.log(val+ " Expensive ");
+//      }else{
+//         console.log(val+ " Affordable");
         
-     } 
- })
+//      } 
+//  })
 // 1 Laptop 50000
 // Laptop Expensive
 // 2 Mouse 800
@@ -310,3 +310,6 @@ let products = ['Laptop', 'Mouse', 'Keyboard', 'Monitor'];
 // Keyboard Affordable
 // 4 Monitor 12000
 // Monitor Expensive 
+
+ 
+

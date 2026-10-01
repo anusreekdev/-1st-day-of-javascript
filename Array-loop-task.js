@@ -444,3 +444,136 @@
 // 6 7 it is a odd num
 // 7 8 it is an even num
 // 8 9 it is a odd num
+
+// map
+// let productprice=[10,20,30,40,50]
+// let newPrice=productprice.map((val)=>{
+//     return val+100
+// })
+// console.log(newPrice);
+// [ 110, 120, 130, 140, 150 ]
+
+// let fruits=[10,20,30,40]
+// let result=fruits.map((val,ind)=>{
+//     return "updated amount" + (ind+1) +" "+val*2
+// })
+// console.log(result);
+// [
+//   'updated amount1 20',
+//   'updated amount2 40',
+//   'updated amount3 60',
+//   'updated amount4 80'
+// ]
+
+
+// let values=[2,3,4,5,6,7,8,9]
+// let even=values.map((val)=>{
+//     if(val%2==0){
+//         return val
+//     }
+//     return 0
+// })
+// console.log(even);
+//   [
+//   2, 0, 4, 0,
+//   6, 0, 8, 0
+// ]
+
+// let marks=[23,46,57,21,78,60]
+// let result=marks.map((val)=>{
+//     if(val>40){
+//         return " pass " +val
+//     }
+//     return " fail " +val
+// })
+// console.log(result);
+// [
+//   ' fail 23',
+//   ' pass 46',
+//   ' pass 57',
+//   ' fail 21',
+//   ' pass 78',
+//   ' pass 60'
+// ]
+
+
+// let prices=[500,1000,2000]
+//  let result=prices.map((val)=>{
+//     let discount=val-100
+//     return val+12 + " --> " +discount
+//  })
+//  console.log(result);
+//  [ '512 --> 400', '1012 --> 900', '2012 --> 1900' ]
+
+// let num=[10,20,30]
+// let result=num.map((val)=>val*10)
+// console.log(result);
+// [ 100, 200, 300 ]
+
+
+// filter
+// let marks=[20,34,45,67,89,76]
+// let pass=marks.filter((val)=>val>=40)
+// console.log(pass);
+// [ 45, 67, 89, 76 ]
+
+// let num=[-3,4,5,6,2,-5,-6,-8]
+// let positive=num.filter((val)=>val>0)
+// console.log(positive);
+// [ 4, 5, 6, 2 ]
+
+// let marks=[43,41,78,67,76,61]
+// let highmark=marks.filter((val)=>val>50 && val<80)
+// console.log(highmark);
+// [ 78, 67, 76, 61 ]
+
+// let num=[10,20,30,40.50]
+// let update=num.filter((val)=>val==10 || val==30)
+// console.log(update);
+// [ 10, 30 ]
+
+// let fruits=['apple',"mango","grapes","guava"]
+// let update=fruits.filter((val,ind)=> ind%2==0)
+// console.log(update);
+// [ 'apple', 'grapes' ]
+
+// let num=[10,20,30,40,50,60]
+// let update=num.filter((val,ind)=> val>=30 && ind%2==0)
+// console.log(update);
+// [ 30, 50 ]
+
+// let num=[3,2,5,6,9,21,24]
+// let update=num.filter((val)=>val%3==0)
+// console.log(update);
+// [ 3, 6, 9, 21, 24 ]
+
+// let num=[1,2,3,0,4,0,5,6,7,0]
+// let update=num.filter((val)=> val!=0)
+// console.log(update);
+// 
+// // [
+//   1, 2, 3, 4,
+//   5, 6, 7
+// ]
+
+// let num=[10,20,30,40,20,10]
+// let result=num.filter((val,ind)=>{
+//     return num.indexOf(val)==ind
+// })
+// console.log(result);
+
+// let salaries=[12000,15000,18000,20000]
+// let update=salaries.filter((val)=>{
+//     return val+2000>=20000
+// })
+// console.log(update);
+// [ 18000, 20000 ]
+
+
+// find
+// let num=[2,3,4,5,6,7,8]
+// let update=num.find((val)=>val%2==0)
+// console.log(update);
+// 2
+
+ 
