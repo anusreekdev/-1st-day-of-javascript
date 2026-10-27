@@ -229,4 +229,123 @@
 // 20
 
 
+// anonymous function
+
+// 1
+// const add=(a,b)=>{
+//     console.log(a+b);
+    
+// }
+// add(30,20)50
+
+// 2
+// (function (){
+//     console.log("i'm currently learning mernstack");
+    
+// })
+// ()
+// i'm currently learning mernstack
+
+// 3
+// (function (a,b){
+//     console.log(a-b);
+    
+// })
+// (20,10)10
+    //  OR
+// const add=function (a,b){
+//     console.log(a*b);
+    
+// }
+// add(20,2)40
+
+// 4
+// const square=function (num){
+//     return num*num
+// }
+// const res=square(4)
+// console.log(res);16
+
+
+// highorder function
+
+// 1
+// const greet=()=>{
+//     console.log("hello");
+    
+// }
+// const execute=(callback)=>{
+//     callback()
+// }
+// execute(greet)
+
+// 2
+// const checkNum=(num)=>{
+//     if(num%2==0){
+//         console.log("even");
+        
+//     }
+//     else{
+//         console.log("odd");
+        
+//     }
+// }
+// const execute=(cb)=>{
+//     cb(10)
+// }
+// execute(checkNum)even
+
+// 3
+// const checkNum=(num)=>{
+//     return num+num
+// }
+// const execute=(cb)=>{
+//     cb(20)
+// }
+// execute(checkNum)
+
+
+// IIFE
+// (function(){
+//     console.log("hai everyone");
+    
+// })()
+// hai everyone
+
+// 1
+// (function(name){
+//     console.log("hello " +name);
+    
+// })("anusree")
+// hello anusree
+
+// 2
+// (function(a,b){
+// console.log(a+b);
+
+// })
+// (20,30)50
+
+// nested function  multiple functions 
+  
+// const outer=()=>{
+//     console.log("i'm anusree");
+//      const inner=()=>{
+//         console.log("from vadakara");
+        
+//      }
+//      inner()
+// }
+// outer()
+// i'm anusree
+// from vadakara
+
+// 1
+// const calculate=(num)=>{
+//     const square=()=>{
+//         return num*num
+//     }
+//     return square()
+// }
+// console.log(calculate(5));25
 
