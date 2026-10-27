@@ -349,3 +349,68 @@
 // }
 // console.log(calculate(5));25
 
+// closure
+ 
+// let age=10
+// const outer=()=>{
+//   let count=20
+//   const inner=()=>{
+//     console.log(count,age);
+    
+//   }
+//   return inner()
+// }
+// outer()20 10
+
+// recrusive function
+
+// const count=(n)=>{
+//     if(n==0){
+//         return 
+//     }
+//     console.log(n);
+//     count(n-1)
+// }
+// count(6)
+
+// curried function
+
+
+//  const add=(a)=>{
+//     return (b)=>{
+//         return(c)=>{
+//             return a+b+c
+//         }
+//     }
+//  }
+//  console.log(add(10)(20)(40));70
+
+// const add=(a,b)=>{
+//     return a+b
+// }
+// add()
+// const sub=(a,b)=>{
+//     return a-b
+// }
+// sub()
+// const mul=(a,b)=>{
+//     return a*b
+// }
+// mul()
+// console.log(add(10,20));30
+// console.log(sub(120,20));20
+// console.log(mul(30,2));60
+
+// const login=(username,password)=>{
+//   if(username==="admin" && password==="12345"){
+//     return "login success"
+//   }
+//   else{
+//     return "invalid"
+//   }
+// }
+// console.log(login("admin","12345"));
+// login success
+
+  
+
