@@ -75,3 +75,32 @@
 //     console.log(res);
     
 // })
+
+
+// async-await
+
+// const greet=async()=>{
+//     return "helo students"
+// }
+
+
+// const getData=()=>{
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             resolve("data received")
+//         },3000)
+//     })
+// }
+// const showData=async()=>{
+//     try{
+//         const result=await getData()
+//         console.log(result);
+        
+//     }
+//     catch(error){
+//         console.log(error);
+        
+//     }
+// }
+// showData()
+// data received
