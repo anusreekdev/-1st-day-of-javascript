@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-Task</title>
+</head>
+<body>
+    <!-- getBtn -->
+    <button id="btn">Click Here</button>
+
+<!-- AddBtn -->
+    <input id="addTitle" type="text" placeholder="Title">
+    <input id="addCategory" type="text" placeholder="category" >
+    <input id="addPrice" type="number" placeholder="price">
+    <button id="addBtn">Add Items</button>
+
+    
+    <table border="1" cellpadding="10" style="margin: 10px;">
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th colspan="3">Actions</th>
+        </tr>
+        <tbody id="result">
+        </tbody>
+    </table>
+    
+
+ <script src="https://cdn.jsdelivr.net/npm/axios@1.21.0/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

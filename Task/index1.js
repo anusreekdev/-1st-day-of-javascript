@@ -8,12 +8,12 @@ btn.addEventListener('click',()=>{
         const data=JSON.parse(xhr.responseText)
         // console.log(data);
         data.posts.forEach((postDetails)=>{
-            result.innerHTML+=`<div class="card h-50" style="width: 18rem; ">
+            result.innerHTML+=`<div class="card h-50 col-3 ms-5" style="width: 20rem; ">
  
   <div class="card-body">
-    <h1 class="card-title">${postDetails.title}</h1>
-    <h5 class="card-text">${postDetails.body}</h5>
-    <a href="#" class="btn btn-primary d-flex align-item-center bg-success  text-light">${postDetails.userId}</a>
+    <h2 class="card-title">${postDetails.title}</h2>
+    <h6 class="card-text">${postDetails.body}</h6>
+        <a href="#" class="btn btn-primary w-100 bg-success text-light ">${postDetails.userId}</a>
   </div>
 </div>`
         })

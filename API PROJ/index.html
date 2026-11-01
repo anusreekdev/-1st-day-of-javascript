@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <button id="btn">Get Students</button>
+    <table border="1" cellpadding="10" style="margin: 20px;">
+     <thead>
+       <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Age</th>
+          <th colspan="2">Actions</th>
+       </tr>
+     </thead>
+
+     <tbody id="result">
+     </tbody>
+    </table>
+    <input id="addname" type="text" placeholder="Enter name">
+    <input id="email" type="email" placeholder="enter email">
+    <input id="age" type="number" placeholder="age">
+    <button id="button">Submit</button>
+    <button id="updatebtn">updatebtn</button>
+
+
+
+    <script src="./index.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.21.0/dist/axios.min.js"></script>
+</body>
+</html>
