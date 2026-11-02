@@ -1,4 +1,6 @@
 
+
+// 1 PRODUCT 
 const btn=document.getElementById('btn')
 const result=document.getElementById('result')
 // GET METHOD
@@ -52,3 +54,22 @@ const editProducts=async(id)=>{
     document.getElementById('addPrice').value=editProduct.price
    edit=id
 }
+
+// UPDATE put
+
+const updateProducts=async()=>{
+    let product={
+        title:document.getElementById('addTitle').value,
+        category:document.getElementById('addCategory').value,
+        price:document.getElementById('addPrice').value
+    }
+    const response=await axios.put(`https://dummyjson.com/products/${edit}`,product)
+    let productss=response.data
+    console.log(productss);
+    alert("Successfully Updated")
+    
+}
+updatebtn=document.getElementById('updatebtn')
+updatebtn.addEventListener('click',updateProducts)
+
+

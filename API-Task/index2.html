@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- getbtn -->
+    <button id="btn">click here</button>
+
+    <!-- add btn -->
+     <input id="addBody" type="text" placeholder="Body">
+     <input id="addpostId" type="number" placeholder="postId">
+     <input id="addLike" type="number" placeholder="likes">
+     <button id="addBtn">Add </button>
+<!-- updatebtn -->
+ <button id="updatebtn">Update</button>
+
+    <table border="1" cellpadding="10px" style="margin: 20px;">
+        <tr>
+           <th>Id</th>
+           <th>Body</th> 
+           <th>PostId</th>
+           <th>Likes</th>
+           <th colspan="2">Actions</th>
+        </tr>
+        <tbody id="result">
+        </tbody>
+
+    </table>
+    
+
+    <script src="./index2.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.21.0/dist/axios.min.js"></script>
+</body>
+</html>
